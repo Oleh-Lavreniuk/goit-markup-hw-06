@@ -74,7 +74,7 @@
           Эффективные решения <br />
           для вашего бизнеса
         </h1>
-        <button class="hero-btn" type="button" data-modal-open>
+        <button class="modal-btn hero-btn" type="button" data-modal-open>
           Заказать услугу
         </button>
       </section>
@@ -497,6 +497,30 @@
             </li>
           </ul>
         </div>
+
+        <!-- DIV-3 - "footer-form" -->
+        <div class="footer-form">
+          <strong class="footer-join-title text-bold"
+            >Подпишитесь на рассылку
+          </strong>
+          <div class="footer-form-lable-wrapper">
+            <label class="footer-form-field"
+              ><input
+                name="sign_user_email"
+                class="footer-form-input"
+                type="email"
+                placeholder="E-mail"
+                required
+            /></label>
+
+            <button type="submit" class="modal-btn footer-form-btn">
+              Подписаться
+              <svg class="footer-form-icon" width="24" height="24">
+                <use href="./images/icons.svg#telegram"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
     </footer>
 
@@ -584,7 +608,7 @@
           </div>
           <!-- CUSTOM CHECKBOX END -->
 
-          <button type="submit" class="contact-form-submit-btn">
+          <button type="submit" class="modal-btn contact-form-submit-btn">
             Отправить
           </button>
         </form>
