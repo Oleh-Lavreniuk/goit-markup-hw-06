@@ -963,7 +963,7 @@ img {
   fill: var(--text-color-light);
   border: var(--accent-color);
   background-origin: border-box;
-  background-image: url(../images/check-icon.svg);
+  background-image: url(../images/check-icon-2.svg);
   background-color: var(--accent-color);
   background-repeat: no-repeat;
   background-position: 50% 50%;
